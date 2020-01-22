@@ -1,13 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BrowserRouter from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+
+import 'bulma'
+import '../src/style.scss'
+
+import Home from './components/Home'
 
 const App = () => {
 
-  return <div>Hello</div>
-	
+  return <BrowserRouter>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
+  </BrowserRouter>
 }
-
 
 
 ReactDOM.render(
