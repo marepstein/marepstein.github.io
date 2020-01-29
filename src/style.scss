@@ -1,19 +1,227 @@
-.typing {
-	font-size: 80px;
-	font-family: 'Baskerville', serif; 
-	color: white;
-	font-style: italic;
-	font-weight: 100;
-	margin-top: 200px;
-	// transform: rotate(90deg);
+body, html {
+	width: 100%;
+	height: 100%;
+	background-color: black;
 }
 
-#home {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	background-color: rgb(27, 27, 27);
-	color: white;
+// .typing {
+// 	font-size: 80px;
+// 	font-family: 'Baskerville', serif; 
+// 	color: white;
+// 	font-style: italic;
+// 	font-weight: 100;
+// 	margin-top: 200px;
+// 	// transform: rotate(90deg);
+// }
+
+.section {
+	padding: 0px; 
 }
+
+#home.section {
+	background-image: url('https://media.giphy.com/media/Uql2x8QiZjAPLXEsgB/giphy.gif');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+
+	.title {
+		color: white;
+		font-family: 'Baskerville', sans-serif;
+		font-style: italic;
+		font-weight: 500;
+		font-size: 100px;
+		text-align: right;
+	}
+
+	.subtitle {
+		color: white;
+		font-size: 190px;
+		font-weight: 400;
+		width: auto;
+	}
+
+	#junior.subtitle {
+		width: 700px; 
+	}
+
+	// .subtitle:hover {
+	// 	transform: scale(1.1);
+	// }
+
+	.nav, a {
+		color: black;
+		font-style: italic;
+		font-weight: 300;
+		font-size: 22px;
+		text-align: right;
+	}
+
+
+	a:hover {
+		text-decoration: line-through;
+	}
+
+
+	// #about-blurb.container {
+	// 		display: flex; 
+	// 		flex-direction: column;
+	// 		align-items: center;
+	// 		justify-content: center;
+	// 	}
+
+}
+
+	#about.section {
+		background-color: black;
+		color: white;
+		height: 100vh;
+		width: 100%;
+		text-align: center;
+		display: flex; 
+		justify-content: center;
+
+		#about-title {
+			font-family: 'Baskerville', serif;
+			font-size: 80px;
+			color: white;
+			font-style: italic;
+			font-weight: 400;
+
+		}
+
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.header-image {
+			height: 25%;
+			width: 25%;
+		}
+
+	}
+
+
+	#project-title {
+		font-family: 'Baskerville', serif;
+		font-size: 130px;
+		color: black;
+		font-style: italic;
+		font-weight: 400;
+		text-align: right;
+	}
+	
+		#projects {
+
+			background-color: black;
+			padding-top: 50px;
+			height: 150%;
+			color: white;
+
+		#proj-1 {
+			display: flex; 
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			height: 320px; 
+			// margin-top: 50px;
+			padding: 100px, 0, 250px, 0;
+		}
+
+		h1 {
+			font-size: 40px; 
+			font-weight: 500;
+		}
+
+		p {
+			font-size: 15px;
+		}
+
+		figure:hover {
+			transform: scale(1.1);
+		}
+
+
+	}
+
+	.tech-section {
+
+		display: flex;
+		flex-direction: column; 
+		align-items: center;
+		
+		.header {
+			color: white;
+			font-size: 100px;
+			font-weight: 300;
+			font-family: 'Baskerville', serif;
+			width: auto;
+			text-align: center;
+			font-style: italic;
+		}
+
+		.box {
+			width: 50%; 
+			border: 2px solid white;
+			background-color: black;
+			height: auto; 
+		}
+
+		.container {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+			width: 100%;
+		}
+	}
+
+
+
+		@media only screen and (max-width: 480px) {
+
+			.section {
+				width: 100%; 
+			}
+
+			.subtitle {
+				font-size: 10px;
+			}
+			
+			.title {
+				font-size: 10px;
+			}
+	
+			.info {
+				width: auto;
+			}
+
+
+			#junior.subtitle {
+				width: auto; 
+				font-size: 20px;
+			}
+	
+			.custom-class {
+				visibility: hidden;
+			}
+
+			#proj-1 { 
+				height: auto; 
+			}
+
+			#projects {
+				h1 {
+				font-size: 40px;
+			}
+
+			p {
+				font-size: 10px;
+			}
+		}
+
+	
+}
+
