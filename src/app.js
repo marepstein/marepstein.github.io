@@ -5,6 +5,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 
 import 'bulma'
 import '../src/style.scss'
+import 'bootstrap/dist/css/bootstrap.css'
 
 import Home from './components/Home'
 import About from './components/About'

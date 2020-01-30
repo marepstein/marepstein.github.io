@@ -6,13 +6,13 @@ import { Link, withRouter } from 'react-router-dom'
 const Navbar = () => {
 
 
-	const handleMenu = () => {
+  const handleMenu = () => {
     const burger = document.querySelector('.burger')
     const menuList = document.querySelector('#' + burger.dataset.target)
 
     burger.classList.toggle('is-active')
-		menuList.classList.toggle('is-active')
-	}
+    menuList.classList.toggle('is-active')
+  }
 
   return <nav className="navbar is-black is-fixed-bottom" role="navigation" aria-label="main navigation">
     <div className="navbar-brand">
@@ -23,18 +23,20 @@ const Navbar = () => {
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div className="navbar-end">
-      <div className="navbar-item">
-        <Link className="navbar-link is-arrowless" to='/about'>About</Link>
-      </div>
-      <div className="navbar-item">
-        <Link className="navbar-link is-arrowless" to='/projects'>Projects</Link>
-      </div>
-      <div className="navbar-item">
-        <Link className="navbar-link is-arrowless" to='/technologies'>Technologies</Link>
-      </div>
-      <div className="navbar-item">
-        <Link className="navbar-link is-arrowless" to='/contact'>Contact</Link>
+    <div id="navDrop" className="navbar-menu">
+      <div className="navbar-end">
+        <div className="navbar-item">
+          <Link className="navbar-link is-arrowless" to='/about'>About</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="navbar-link is-arrowless" to='/projects'>Projects</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="navbar-link is-arrowless" to='/technologies'>Technologies</Link>
+        </div>
+        <div className="navbar-item">
+          <Link className="navbar-link is-arrowless" to='/contact'>Contact</Link>
+        </div>
       </div>
     </div>
   </nav>
