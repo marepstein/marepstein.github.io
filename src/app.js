@@ -12,6 +12,7 @@ import About from './components/About'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
 import Technologies from './components/Technologies'
+import Contact from './components/Contact'
 
 const App = () => {
 
@@ -24,6 +25,7 @@ const App = () => {
         <Route exact path="/about" component={About} /> 
         <Route exact path="/projects" component={Projects} /> 
         <Route exact path="/technologies" component={Technologies} /> 
+        <Route exact path="/contact" component={Contact} /> 
       </Switch>
     </ParallaxProvider>
   </BrowserRouter>

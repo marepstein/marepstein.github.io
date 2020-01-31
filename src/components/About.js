@@ -7,18 +7,8 @@ const About = () => {
 
   console.log(location)
 
-
-  // const refHook = useRef(initValue)
-  // const didMountRef = useRef(false)
-
-  // useEffect(() => {
-  // 	if(prevProps.location.pathname !== props.location.pathname) {
-			
-  // 	}
-  // }, [])
-
   return  <div className="section" id="about">
-		<Fade left>
+    <Fade left>
       <div className="container">
         <div className="header-image"><img src="https://i.imgur.com/nguIDG2.jpg" /></div>
         <div className="title" id="about-title">About Me</div>
@@ -37,8 +27,8 @@ const About = () => {
           </div>
         </div>
       </div>
-			</Fade>
-    </div>
+    </Fade>
+  </div>
 
 }
 

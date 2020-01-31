@@ -2,6 +2,7 @@ body, html {
 	background-color: black;
 	width: 100%;
 	height: 100vh;
+	position: fixed;
 }
 
 
@@ -45,15 +46,16 @@ body, html {
 		// <---- navbar -----> 
 
 
-		.navbar-menu {
-			height: 30px; 
+	
+
+		.navbar-burger {
+			text-align: right; 
 		}
 	
 		.nav, a {
 			color: black;
 			font-weight: 300;
 			font-size: 15px;
-			text-align: right;
 	
 		}
 
@@ -117,10 +119,10 @@ body, html {
 	}
 	
 		.proj-section {
-			background-image: url('https://66.media.tumblr.com/808dbcb94ca506aa4377362b64e57bbf/tumblr_p32vzfwnps1s74bi2o1_400.jpg');
+			background-image: url('https://i.pinimg.com/originals/44/89/68/4489688030878b024f16ef82804b66d6.jpg');
 			background-repeat: no-repeat;
 			background-position: left;
-			background-size: 70%;
+			background-size: 40%;
 			background-color: black;
 			padding-top: 50px;
 			height: 100vh;
@@ -197,28 +199,24 @@ body, html {
 		background-color: black;
 	
 
-		.tech-container {
-			// display: flex; 
-			// flex-direction: column;
-			// height: 100vh;
-			// align-items: center;
-			// justify-content: center;
-		}
-
 		.info {
-			padding: 0 20px 0 20px;
+			padding: 40px 20px 0 20px;
 			color: white;
 			// border: 1px solid white;
 			// background-color: black;
+			text-align: center;
+
 		}
 		
 		.header {
-			color: white;
-			font-size: 80px;
+			color: black;
+			font-size: 90px;
 			font-weight: 400;
-			// width: auto;
+			font-style: italic;
+			border: 1px solid white; 
+			background-color: rgb(226, 226, 226); 
 			text-align: center;
-			// display: flex;
+			width: 70%;
 			// align-items: center;
 		
 		}
@@ -255,6 +253,72 @@ body, html {
 	}
 
 
+	// <------- contact ---------> 
+
+	#contact.section {
+		background-image: url('https://static1.squarespace.com/static/5b191da655b02c1de94ee3b3/5ccc1f6faa8bde0001612d8f/5ccc4f9cc8302529935e7dc9/1556897649670/ELLISPAINT2SHADOWSANDLIGHT+bw.jpeg?format=1500w');
+		background-color: black;
+		height: 100vh;
+		background-repeat: no-repeat;
+		background-position-x: left;
+		background-position-y: bottom;
+		text-align: center;
+		
+		.container {
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			text-align: right;
+			height: 100vh;
+		}
+
+		.contact-img {
+			height: 30%;
+			width: 30%;
+		}
+
+		.column {
+			display: flex;
+			justify-content: center;
+		}
+
+		#github.column {
+			justify-content: flex-end;
+		}
+		
+		.title {
+			font-size: 100px;
+			color: black; 
+			border: 1px solid white;
+			background-color: white;
+			font-style: italic;
+			font-weight: 400;
+		}
+
+		.subtitle {
+			font-size: 35px;
+		}
+
+		a {
+			text-decoration: none; 
+			color: white;
+			font-size: 35px;
+			font-weight: 500;
+		}
+
+		a:hover {
+			color: rgb(53, 52, 52);
+		}
+
+		// #icons.container {
+		// 	display: flex; 
+		// 	flex-direction: column;
+		// 	align-items: center;
+		// 	height: 100vh;
+		// }
+
+	}
+
 
 
 		@media only screen and (max-width: 480px) {
@@ -278,9 +342,13 @@ body, html {
 			}
 
 
-			#junior.subtitle {
-				width: auto; 
-				font-size: 20px;
+			// #junior.subtitle {
+			// 	width: auto; 
+			// 	font-size: 20px;
+			// }
+
+			#home.section .subtitle {
+				font-size: 50px;
 			}
 	
 			.custom-class {
@@ -303,9 +371,12 @@ body, html {
 
 		.tech-section {
 		
-			.grid-container {
-				display: none;
-			}
+			// .grid-container {
+			// 	display: none;
+			// }
+
+			height: 100vh; 
+			width: 100vh;
 
 			.header {
 				font-size: 30px;

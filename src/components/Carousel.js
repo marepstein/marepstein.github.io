@@ -51,7 +51,7 @@ const CarouselDisplay = () => {
 
         <Carousel.Caption>
           <h3>Green Garms</h3>
-          <p>A full-stack web and mobile CRUD app to help users contribute to sustainable fashion. For the backend, we used Python Django, Django REST Framework and Postgres. We populated two databases to form a ‘clothes swap’ functionality, based on the provision of user registration, and a brand sustainability ranking. For the frontend, we used React and JavaScript, styled using SASS. </p>
+          <p>A full-stack web and mobile CRUD app to help users contribute to sustainable fashion. For the backend, we used Python Django, Django REST Framework and Postgres. We populated two databases to form a ‘clothes swap’ functionality, based on the provision of user registration, and a brand sustainability ranking. For the frontend, we used React and JavaScript, styled using SASS. Mobile Optimized. </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

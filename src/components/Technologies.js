@@ -20,7 +20,7 @@ const Technologies = () => {
       <div className="tech-container is-one-half-mobile">
         <div className="header">My Technology Stack</div>
         <div className="columns is-multiline is-mobile">
-          <div className="column is-one-half-desktop">
+          <div className="column is-half-desktop is-half-mobile">
             <div className="info">
               <p><strong>Languages and frameworks:</strong> HTML, CSS, JavaScript, React, Bulma, Node.js, Webpack,  Mongoose, Express, Python 3, Django</p>
               <br />
@@ -35,7 +35,7 @@ const Technologies = () => {
               <p><strong>Soft Skills:</strong> Teamwork, Adaptability, Creativity, Time Management (Trello), Communication (Slack)</p>
             </div>
           </div>
-          <div className="column is-one-half-desktop">
+          <div className="column is-half-desktop is-half-mobile">
             <div className="grid-container is-one-quarter-mobile">
               {/* <div className="columns is-multiline">
           <div className="column is-one-half-desktop"> */}
