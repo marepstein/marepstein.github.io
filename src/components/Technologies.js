@@ -17,7 +17,7 @@ const Technologies = () => {
 
   return 	<Fade left><div className="tech-section">
     <Fade right>
-      <div className="tech-container is-one-half-mobile">
+      <div className="tech-container is-half-mobile">
         <div className="header">My Technology Stack</div>
         <div className="columns is-multiline is-mobile">
           <div className="column is-half-desktop is-half-mobile">
@@ -109,13 +109,6 @@ const Technologies = () => {
           </div>
         </div>
       </div>
-      
-			
-					
-		
-      {/* <div className="section"> */}
-        
-  §
     </Fade>
   </div>
 	</Fade>

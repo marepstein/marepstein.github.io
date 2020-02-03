@@ -19,7 +19,7 @@ const CarouselDisplay = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
-			<a href="https://marepstein.github.io/sun-to-moon/"><img
+        <a href="https://marepstein.github.io/sun-to-moon/"><img
           className="carousel-img"
           src="https://i.imgur.com/Vmtbptm.png" 
           alt="Second slide"
