@@ -15,7 +15,7 @@ const Technologies = () => {
   }, [])
  
 
-  return 	<div className="tech-section">
+  return 	<Fade left><div className="tech-section">
     <Fade right>
       <div className="tech-container is-one-half-mobile">
         <div className="header">My Technology Stack</div>
@@ -118,6 +118,7 @@ const Technologies = () => {
   §
     </Fade>
   </div>
+	</Fade>
 	
 
 

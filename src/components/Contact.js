@@ -1,11 +1,10 @@
-import React, { useState} from 'react'
+import React from 'react'
+import Fade from 'react-reveal/Fade'
 
-const Contact = (props) => {
-
-	
+const Contact = () => {
 
 
-  return <div className="section" id="contact">
+  return   <Fade left><div className="section" id="contact">
     <div className="container">
       <div className="title">Contact Me</div>
       <div className="container" id="icons">
@@ -17,19 +16,11 @@ const Contact = (props) => {
           <p>marissaepstein@outlook.com</p></div>
         <div className="subtitle"><strong style={{ color: '#FFF' }}><a href="https://www.linkedin.com/in/marissaepstein/">LinkedIn:</a></strong>
           <br />
-				 <p>linkedin.com/in/marissaepstein</p></div>
-
-        {/* <div className="columns is-mobile is-multiline">
-          <div className="column" id="github">
-            <div className="contact-img">	<img src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png" /></div>
-          </div>
-          <div className="column">
-            <div className="contact-img">	<img src="https://i.pinimg.com/originals/2b/b4/28/2bb428b7e4aa39078a119deccacae6f3.png" /></div>
-          </div>
-        </div> */}
+          <p>linkedin.com/in/marissaepstein</p></div>
       </div>
     </div>
   </div>
+  </Fade>
 
 
 }

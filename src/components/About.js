@@ -22,10 +22,29 @@ const About = () => {
             <br /> 
             <br /> 
             <br /> 
-		The GA Software Engineering Immersive was the perfect environment for me to learn, and has allowed me to combine my creative interests with a new coding skillset, which I am excited to continue to develop. 
+		The General Assembly Software Engineering Immersive was the perfect environment for me to learn, and has allowed me to combine my creative interests with a new coding skillset, which I am excited to continue to develop. 
 		I hope to be part of an innovative, fast-paced organisation, which allows me to thrive as a junior developer.
           </div>
         </div>
+        <div className="container" id="education">
+          <div className="section">
+            <div className="columns is-mobile is-multiline">
+              <div className="column" id="about-bottom">
+                <div className="title" style={{ fontSize: 20 }}>Education</div>
+                <p><strong>General Assembly | Oct '19 - Jan '20</strong> <br/> Software Engineering Immersive</p>
+              
+                <p><strong>University of Nottingham | Sep '16 - June '19 </strong> <br/> BSc Management 2:1 </p>
+             
+              </div>
+              <div className="column" id="about-bottom">
+                <div className="title" style={{ fontSize: 20 }}>Experience</div>
+                <p><strong>Osprey London | Oct '15 - Oct '19</strong> <br/> Part-time Sales Assistant</p>
+                <p><strong> Churchill Contract Services | Jul '15 - Sept '16 </strong> <br/> Admin Assistant</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* </div> */}
       </div>
     </Fade>
   </div>

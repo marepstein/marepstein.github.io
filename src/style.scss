@@ -1,5 +1,5 @@
 body, html {
-	background-color: black;
+	background-color: black !important; 
 	width: 100%;
 	height: 100vh;
 	position: fixed;
@@ -104,6 +104,9 @@ body, html {
 			background-color: black;
 		}
 
+		#about-bottom.column {
+			width: 800px;
+		}
 	}
 
 			// <---- projects -----> 
@@ -310,12 +313,6 @@ body, html {
 			color: rgb(53, 52, 52);
 		}
 
-		// #icons.container {
-		// 	display: flex; 
-		// 	flex-direction: column;
-		// 	align-items: center;
-		// 	height: 100vh;
-		// }
 
 	}
 
