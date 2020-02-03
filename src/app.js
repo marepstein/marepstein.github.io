@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter, Switch, Route, useRouter, WithRouter } from 'react-router-dom'
+import { HashRouter, Switch, Route, useRouter, WithRouter } from 'react-router-dom'
 import { ParallaxProvider } from 'react-scroll-parallax'
 
 import 'bulma'
@@ -17,7 +17,7 @@ import Contact from './components/Contact'
 const App = () => {
 
 	
-  return <BrowserRouter>
+  return <HashRouter>
     <Navbar />
     <ParallaxProvider>
       <Switch>
@@ -28,7 +28,7 @@ const App = () => {
         <Route exact path="/contact" component={Contact} /> 
       </Switch>
     </ParallaxProvider>
-  </BrowserRouter>
+  </HashRouter>
 }
 
 
