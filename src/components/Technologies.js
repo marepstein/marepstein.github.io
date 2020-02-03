@@ -36,7 +36,7 @@ const Technologies = () => {
             </div>
           </div>
           <div className="column is-half-desktop is-half-mobile">
-            <div className="grid-container is-one-quarter-mobile">
+            <div className="grid-container is-full-mobile">
               {/* <div className="columns is-multiline">
           <div className="column is-one-half-desktop"> */}
 
