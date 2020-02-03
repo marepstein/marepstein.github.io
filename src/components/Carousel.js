@@ -31,7 +31,7 @@ const CarouselDisplay = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
-        <a href="thekitchenapp.herokuapp.com/"><img
+        <a href="https://thekitchenapp.herokuapp.com/"><img
           className="carousel-img"
           src="https://i.imgur.com/sbIPJUk.png"
           alt="Third slide"
@@ -43,7 +43,7 @@ const CarouselDisplay = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="carousel-item">
-        <a href="greengarmsguide.herokuapp.com/#/"><img
+        <a href="https://greengarmsguide.herokuapp.com/#/"><img
           className="carousel-img"
           src="https://i.imgur.com/yetNxIp.png"
           alt="Fourth slide"
