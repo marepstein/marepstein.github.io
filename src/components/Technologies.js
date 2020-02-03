@@ -22,17 +22,17 @@ const Technologies = () => {
         <div className="columns is-multiline is-mobile">
           <div className="column is-half-desktop is-half-mobile">
             <div className="info">
-              <p><strong>Languages and frameworks:</strong> HTML, CSS, JavaScript, React, Bulma, Node.js, Webpack,  Mongoose, Express, Python 3, Django</p>
+              <p><strong style={{ color: '#8B8B8B' }}>Languages and frameworks:</strong> HTML, CSS, JavaScript, React, Bulma, Node.js, Webpack,  Mongoose, Express, Python 3, Django</p>
               <br />
-              <p> <strong>Databases:</strong> MongoDB, SQL</p>
+              <p> <strong style={{ color: '#8B8B8B' }}>Databases:</strong> MongoDB, SQL</p>
               <br />
-              <p><strong>Management & Deployment:</strong> Git, Github, npm, yarn, pip3, Heroku, gh-pages</p>
+              <p><strong style={{ color: '#8B8B8B' }}>Management & Deployment:</strong> Git, Github, npm, yarn, pip3, Heroku, gh-pages</p>
               <br />
-              <p><strong>Methodologies:</strong> CRUD, REST, TDD, Trello, Slack</p>
+              <p><strong style={{ color: '#8B8B8B' }}>Methodologies:</strong> CRUD, REST, TDD, Trello, Slack</p>
               <br />
-              <p><strong>Other:</strong> Adobe Creative Suite (Indesign, Photoshop and Lightroom - Beginner) </p>
+              <p><strong style={{ color: '#8B8B8B' }}>Other:</strong> Adobe Creative Suite (Indesign, Photoshop and Lightroom - Beginner) </p>
               <br />
-              <p><strong>Soft Skills:</strong> Teamwork, Adaptability, Creativity, Time Management (Trello), Communication (Slack)</p>
+              <p><strong style={{ color: '#8B8B8B' }}>Soft Skills:</strong> Teamwork, Adaptability, Creativity, Time Management (Trello), Communication (Slack)</p>
             </div>
           </div>
           <div className="column is-half-desktop is-half-mobile">
