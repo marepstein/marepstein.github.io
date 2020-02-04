@@ -192,7 +192,7 @@ body, html {
 	.tech-section {
 
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		height: 100vh; 
@@ -229,9 +229,9 @@ body, html {
 		}
 
 		.column {
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			// display: flex;
+			// align-items: center;
+			// justify-content: center;
 			padding-left: 50px;
 		}
 		
@@ -375,8 +375,16 @@ body, html {
 
 			}
 
+			#home.section #junior.subtitle {
+				// text-align: right; 
+				width: auto; 
+				margin-top: 200px;
+			}
+
 			#home.section .subtitle {
 				font-size: 50px;
+				text-align: right;
+				font-weight: 600;
 			}
 	
 			.custom-class {
@@ -401,25 +409,41 @@ body, html {
 			}
 		}
 
+		.tech-section {
+			background-size: 70%;
+			background-position-x: left;
+			background-position-y: 20rem;
+		}
+
 		.tech-container {
 		
-			// .grid-container {
-			// 	display: none;
-			// }
+			.grid-container {
+				width: auto;
+				display: none;
+			}
 
 			height: 100vh; 
 			width: 100%;
-			display: flex; 
-			flex-direction: column;
-			flex-grow: 1;
+
+			.columns.is-mobile > .column.is-half {
+				width: fit-content;
+				height: 60vh;
+			}
 
 			.header {
-				font-size: 20px;
+				font-size: 25px;
+				width: auto;
+			}
+
+			.grid-item {
+				font-size: 15px;
 			}
 
 			.info {
 				background-color: black;
+				margin: 30px 40px 0px 0px; 
 			}
+			
 
 		}
 
